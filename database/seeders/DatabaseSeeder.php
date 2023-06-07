@@ -82,84 +82,137 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Product::create([
-            'nama' => 'Food 1',
-            'image' => 'product1.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
+            'nama' => 'Nasi Gila',
+            'image' => 'nasigila.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni sosis dan telur orak arik yang diolah dengan tambahan bumbu saus pedas gurih beserta combo nasi panas dan sayuran segar dijamin bikin ketagihan',
+            'harga' => 15000,
+            'rating' => 4.9,
+        ]);
+        Product::create([
+            'nama' => 'Chicken Matta Chilli Sauce',
+            'image' => 'chickenmatta.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni ayam yang diolah menjadi ayam krispi dengan tambahan sambal mattah segar yang dijamin pedasnya nampol beserta combo nasi panas dan sayuran segar dijamin mantull',
+            'harga' => 18000,
+            'rating' => 5,
+        ]);
+        Product::create([
+            'nama' => 'Chicken Barbeque Sauce',
+            'image' => 'chickenbarbeque.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus barbeque yang khas beserta combo nasi panas dan salad sayuran segar dijamin nikmat',
+            'harga' => 18000,
+            'rating' => 4.9,
+        ]);
+        Product::create([
+            'nama' => 'Chicken Lava Sauce ',
+            'image' => 'chickenlava.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus lava bercitarasa pedas manis beserta combo nasi panas dan salad sayur segar dijamin nikmat',
+            'harga' => 19000,
+            'rating' => 4.7,
+        ]);
+        Product::create([
+            'nama' => 'Chicken Stuffed Cheese',
+            'image' => 'chickenstuffed.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni ayam katsu berisi keju didalamnya yang disajikan dengan tambahan saus sambal yang nikmat beserta combo nasi panas dan salad sayuran segar dijamin bikin jatuh cinta',
+            'harga' => 19000,
+            'rating' => 5,
+        ]);
+        Product::create([
+            'nama' => 'Chicken Salted Egg',
+            'image' => 'chickensaltedegg.png',
+            'deskripsi' => 'Hidangan dengan komponen utama yakni potongan ayam krispi dengan tambahan sauce keju yang gurih krimi beserta combo nasi panas dan salad sayur segar dijamin nikmat',
             'harga' => 20000,
-            'jumlah_terjual' => 200,
-            'rating' => 4,
+            'rating' => 4.8,
         ]);
         Product::create([
-            'nama' => 'Food 2',
-            'image' => 'product2.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
+            'nama' => 'Japanesse Purin',
+            'image' => 'japanessepurin.png',
+            'deskripsi' => 'Lembutnya pudding susu dipadukan dengan caramel yang manis dijamin bikin moodmu naik ',
+            'harga' => 8000,
+            'rating' => 4.6,
+        ]);
+        Product::create([
+            'nama' => 'Churros',
+            'image' => 'churros.png',
+            'deskripsi' => 'Fried cake dengan sensasi renyah diluar lembut didalam bikin nongkimu makin rileks',
+            'harga' => 10000,
+            'rating' => 4.8,
+        ]);
+        Product::create([
+            'nama' => 'French Fries',
+            'image' => 'frenchfries.png',
+            'deskripsi' => 'Snack Stick kentang goreng dengan cita rasa gurih, cocok buat menemani nongkimu',
+            'harga' => 11000,
+            'rating' => 4.8,
+        ]);
+        Product::create([
+            'nama' => 'Mix Potagis',
+            'image' => 'mixpotagis.png',
+            'deskripsi' => 'Snack yang terdiri dari Onion Ring, Nugget, Sausage dan Potato, cocok buat menemani obrolan asik bareng teman-teman',
+            'harga' => 15000,
+            'rating' => 4.9,
+        ]);
+        Product::create([
+            'nama' => 'Americano Hot',
+            'image' => 'americanohot.png',
+            'deskripsi' => 'Espresso dengan seduhan air panas menghasilkan rasa espresso yang soft dan kompleks',
+            'harga' => 13000,
+            'rating' => 4.8,
+        ]);
+        Product::create([
+            'nama' => 'Americano Ice',
+            'image' => 'americanoice.png',
+            'deskripsi' => 'Espresso dengan seduhan air dan tambahan es batu menghasilkan rasa espresso yang soft serta kompleks dengan sensasi dingin',
+            'harga' => 14000,
+            'rating' => 4.8,
+        ]);
+        Product::create([
+            'nama' => 'Sanger',
+            'image' => 'sanger.jpg',
+            'deskripsi' => 'Sering disebut “Bonbon Coffee” espresso dan susu kondensasi',
+            'harga' => 15000,
+            'rating' => 4.9,
+        ]);
+        Product::create([
+            'nama' => 'Coffee Latte',
+            'image' => 'latte.jpg',
+            'deskripsi' => 'Perpaduan antara espresso dan susu yang memiliki cita rasa soft, cocok untuk mencerahkan hari agar lebih bewarna',
             'harga' => 17000,
-            'jumlah_terjual' => 288,
-            'rating' => 5,
+            'rating' => 4.6,
         ]);
         Product::create([
-            'nama' => 'Food 3',
-            'image' => 'product3.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 23000,
-            'jumlah_terjual' => 10,
-            'rating' => 3,
+            'nama' => 'Ice Coffee Milk',
+            'image' => 'coffeemilk.jpg',
+            'deskripsi' => 'Perpaduan ektra espresso dan susu yang memiliki cita rasa strong, memberikanmu semangat untuk menjalani aktivitas sehari-hari',
+            'harga' => 17000,
+            'rating' => 4.8,
         ]);
         Product::create([
-            'nama' => 'Food 4',
-            'image' => 'product4.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 24000,
-            'jumlah_terjual' => 200,
-            'rating' => 1,
+            'nama' => 'Aurora',
+            'image' => 'aurora.png',
+            'deskripsi' => 'Sajian minuman menyegarkan yang terbuat dari strawberry, jeruk, lemon, gula, soda',
+            'harga' => 13000,
+            'rating' => 4.8,
         ]);
         Product::create([
-            'nama' => 'Food 5',
-            'image' => 'product5.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 3000,
-            'jumlah_terjual' => 800,
-            'rating' => 0,
+            'nama' => 'Viola',
+            'image' => 'violet.png',
+            'deskripsi' => 'Sajian minuman menyegarkan yang terbuat dari rose, lemon, gula, soda',
+            'harga' => 13000,
+            'rating' => 4.9,
         ]);
         Product::create([
-            'nama' => 'Drink 1',
-            'image' => 'product6.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 12000,
-            'jumlah_terjual' => 80,
-            'rating' => 3,
+            'nama' => 'Sunset',
+            'image' => 'sunset.png',
+            'deskripsi' => 'Sajian minuman menyegarkan yang terbuat dari jeruk, lemon, apel, gula, soda',
+            'harga' => 13000,
+            'rating' => 4.7,
         ]);
         Product::create([
-            'nama' => 'Drink 2',
-            'image' => 'product7.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 22000,
-            'jumlah_terjual' => 70,
-            'rating' => 2,
-        ]);
-        Product::create([
-            'nama' => 'Drink 3',
-            'image' => 'product8.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 21000,
-            'jumlah_terjual' => 800,
-            'rating' => 1,
-        ]);
-        Product::create([
-            'nama' => 'Drink 4',
-            'image' => 'product9.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 12500,
-            'jumlah_terjual' => 80,
-            'rating' => 1,
-        ]);
-        Product::create([
-            'nama' => 'Drink 10',
-            'image' => 'product10.jpg',
-            'deskripsi' => 'jenis konsumsi yang terdiri dari bahan-bahan yang dapat dikonsumsi manusia untuk memenuhi kebutuhan gizi dan memberikan energi bagi tubuh. Makanan tidak hanya berfungsi sebagai sumber energi, tetapi juga mengandung zat-zat yang diperlukan oleh tubuh untuk menjalankan berbagai fungsi fisiologis.',
-            'harga' => 16000,
-            'jumlah_terjual' => 10,
-            'rating' => 5,
+            'nama' => 'Jupiter',
+            'image' => 'jupiter.png',
+            'deskripsi' => 'Sajian minuman menyegarkan yang terbuat dari jeruk, strawberry, apel, gula, soda',
+            'harga' => 13000,
+            'rating' => 4.8,
         ]);
 
     }

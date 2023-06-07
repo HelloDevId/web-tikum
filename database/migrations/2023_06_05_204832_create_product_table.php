@@ -19,7 +19,6 @@ class CreateProductTable extends Migration
             $table->string('image');
             $table->longText('deskripsi');
             $table->integer('harga');
-            $table->string('jumlah_terjual');
             $table->float('rating')->default(0);
             $table->timestamps();
         });
