@@ -153,14 +153,14 @@ class DatabaseSeeder extends Seeder
         ]);
         Product::create([
             'nama' => 'Americano Hot',
-            'image' => 'americanohot.png',
+            'image' => 'americanohot.jpg',
             'deskripsi' => 'Espresso dengan seduhan air panas menghasilkan rasa espresso yang soft dan kompleks',
             'harga' => 13000,
             'rating' => 4.8,
         ]);
         Product::create([
             'nama' => 'Americano Ice',
-            'image' => 'americanoice.png',
+            'image' => 'americanoice.jpg',
             'deskripsi' => 'Espresso dengan seduhan air dan tambahan es batu menghasilkan rasa espresso yang soft serta kompleks dengan sensasi dingin',
             'harga' => 14000,
             'rating' => 4.8,
