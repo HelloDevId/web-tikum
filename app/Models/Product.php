@@ -16,7 +16,12 @@ class Product extends Model
         'deskripsi',
         'harga',
         'jumlah_terjual',
-        'rating'
+        'rating',
+        'id_kategori'
     ];
 
+    public function Kategori()
+    {
+        return $this->belongsTo(Kategori::class, 'id_kategori', 'id');
+    }
 }

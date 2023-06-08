@@ -7,9 +7,13 @@ use Illuminate\Http\Request;
 
 class ApiProductController extends Controller
 {
-    public function all()
+    public function all(Request $request)
     {
-        $products = Product::orderByDesc('id')->get();
+        $id_kategori = $request->input('id_kategori');
+
+        $products = Product::where('id_kategori', $id_kategori)
+            ->orderByDesc('id')
+            ->get();
 
         return response()->json([
             'message' => 'success',
