@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Kategori;
 use App\Models\Meja;
 use App\Models\Product;
+use App\Models\Reservasi;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -249,6 +250,13 @@ class DatabaseSeeder extends Seeder
             'harga' => 13000,
             'id_kategori' => 4,
             'rating' => 4.8,
+        ]);
+
+        Reservasi::create([
+            'id_user' => 2,
+            'id_meja' => 1,
+            'tanggal' => date('Y-m-d'),
+            'status' => 'Menunggu Konfirmasi',
         ]);
 
     }
