@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>@yield('title') - Pitik</title>
+    <title>@yield('title') - Tikum</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="{{ asset('admin/css/simplebar.css') }}">
     <!-- Fonts CSS -->

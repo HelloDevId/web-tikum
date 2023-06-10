@@ -24,30 +24,7 @@
                     <span class="ml-3 item-text">Dashboard</span>
                 </a>
             </li>
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/dataayam">
-                    <i class="fe fe-grid fe-16"></i>
-                    <span class="ml-3 item-text">Data Ayam</span>
-                </a>
-            </li> --}}
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datacatatayam">
-                    <i class="fe fe-command fe-16"></i>
-                    <span class="ml-3 item-text">Data Catat Ayam</span>
-                </a>
-            </li> --}}
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datapakan">
-                    <i class="fe fe-slack fe-16"></i>
-                    <span class="ml-3 item-text">Data Pakan</span>
-                </a>
-            </li>
-            <li class="nav-item w-100">
-                <a class="nav-link" href="/dataovk">
-                    <i class="fe fe-file-text fe-16"></i>
-                    <span class="ml-3 item-text">Data OVK</span>
-                </a>
-            </li> --}}
+           
             <li class="nav-item w-100">
                 <a class="nav-link" href="/datakategori">
                     <i class="fe fe-users fe-16"></i>
@@ -60,12 +37,7 @@
                     <span class="ml-3 item-text">Data User</span>
                 </a>
             </li>
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datasamplejual">
-                    <i class="fe fe-shopping-bag fe-16"></i>
-                    <span class="ml-3 item-text">Data Sample Jual</span>
-                </a>
-            </li> --}}
+
             <li class="nav-item w-100">
                 <a class="nav-link" href="/dataproduct">
                     <i class="fe fe-share fe-16"></i>
@@ -86,44 +58,6 @@
                     <span class="ml-3 item-text">Data Reservasi</span>
                 </a>
             </li>
-
-
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datapengeluaranayam">
-                    <i class="fe fe-activity fe-16"></i>
-                    <span class="ml-3 item-text">Data Pengeluaran Ayam</span>
-                </a>
-            </li>
-            <li class="nav-item w-100">
-                <a class="nav-link" href="/datapengeluaranvaksin">
-                    <i class="fe fe-activity fe-16"></i>
-                    <span class="ml-3 item-text">Data Pengeluaran Vaksin</span>
-                </a>
-            </li>
-            <li class="nav-item w-100">
-                <a class="nav-link" href="/datapengeluaranpakan">
-                    <i class="fe fe-activity fe-16"></i>
-                    <span class="ml-3 item-text">Data Pengeluaran Pakan</span>
-                </a>
-            </li> --}}
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datapengeluarangaji">
-                    <i class="fe fe-activity fe-16"></i>
-                    <span class="ml-3 item-text">Data Pengeluaran Gaji</span>
-                </a>
-            </li> --}}
-            {{-- <li class="nav-item w-100">
-                <a class="nav-link" href="/datapendapatan">
-                    <i class="fe fe-bar-chart-2 fe-16"></i>
-                    <span class="ml-3 item-text">Data Pendapatan</span>
-                </a>
-            </li>
-            <li class="nav-item w-100">
-                <a class="nav-link" href="/datapenghasilan">
-                    <i class="fe fe-dollar-sign fe-16"></i>
-                    <span class="ml-3 item-text">Data Penghasilan</span>
-                </a>
-            </li> --}}
 
         </ul>
     </nav>

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Tiny Dashboard - A Bootstrap Dashboard Template</title>
+    <title>Tikum login</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="{{ asset('admin/css/simplebar.css') }}">
     <!-- Fonts CSS -->
@@ -52,7 +52,7 @@
                         class="form-control form-control-lg" placeholder="Password" required="">
                 </div>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-                <p class="mt-5 mb-3 text-muted">© 2020</p>
+                <p class="mt-5 mb-3 text-muted">© 2023</p>
             </form>
         </div>
     </div>
