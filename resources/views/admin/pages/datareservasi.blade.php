@@ -65,6 +65,8 @@
                                                         <span class="badge badge-warning">Menunggu Konfirmasi</span>
                                                     @elseif($data->status == 'Konfirmasi')
                                                         <span class="badge badge-success">Konfirmasi</span>
+                                                    @elseif($data->status == 'Selesai')
+                                                        <span class="badge badge-success">Selesai</span>
                                                     @else
                                                         <span class="badge badge-danger">Dibatalkan</span>
                                                     @endif
@@ -133,6 +135,7 @@
                                                                         <option value="Menunggu Konfirmasi">Menunggu
                                                                             Konfirmasi</option>
                                                                         <option value="Konfirmasi">Konfirmasi</option>
+                                                                        <option value="Selesai">Selesai</option>
                                                                         <option value="Dibatalkan">Dibatalkan</option>
                                                                     </select>
                                                                 </div>
